@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to my shop</h1>
+      
+    <nav>
+      <ul>
+        <li><a href="index.html" class="button">Home</a></li>
+        <li><a href="contact.html" class="button">Contact Us</a></li>
+      </ul><a href="#" class="logo">
+      <img src="https://fiu-original.b-cdn.net/fontsinuse.com/use-images/168/168941/168941.png?filename=Tim_Hortons_Logo.png" alt="Logo">
+    </a>  
+    </nav>
+  </header>
+  <aside>
+    <h2>You can also buy</h2>
+    <ul>
+      <li>Coffe</li>
+      <li>Creamy chill</li>
+      <li>Tim Bits</li>
+    </ul>
+  </aside>
+  <main>
+    <h2>Contact Us</h2>
+    <form id="contactForm" action="#" method="post">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required autofocus>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div>
+          <label for="employmentStatus">Employment Status:</label>
+          <select id="employmentStatus" name="employmentStatus" required>
+            <option value="" disabled selected>Select Option</option>
+            <option value="Student">Student</option>
+            <option value="Employed Full-time">Employed Full-time</option>
+            <option value="Employed Part-time">Employed Part-time</option>
+            <option value="Retired">Retired</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>How did you hear about our site?</legend>
+        <div>
+          <input type="radio" id="socialMedia" name="hearAbout" value="Social Media">
+          <label for="socialMedia">Social Media</label>
+        </div>
+        <div>
+          <input type="radio" id="friend" name="hearAbout" value="Friend">
+          <label for="friend">Friend</label>
+        </div>
+        <div>
+          <input type="radio" id="searchEngine" name="hearAbout" value="Search Engine">
+          <label for="searchEngine">Search Engine</label>
+        </div>
+        <div>
+          <input type="radio" id="other" name="hearAbout" value="Other">
+          <label for="other">Other</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Tell Us what you think!</legend>
+        <div>
+          <label for="comments">Comments:</label>
+          <textarea id="comments" name="comments" placeholder="Your comments here"></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Submit</legend>
+        <div>
+          <input type="checkbox" id="robot" name="robot" required>
+          <label for="robot">I am not a robot.</label>
+        </div>
+        <div>
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </div>
+      </fieldset>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2023  Kailashdeep Singh| 8869387 </p>
+  </footer>
+</body>
+</html>

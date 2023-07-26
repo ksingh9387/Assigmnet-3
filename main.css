@@ -1,0 +1,192 @@
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px; /* Decrease the font size for the title to make the header smaller */
+  text-align: center;
+  flex: 1;
+}
+
+.logo {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px; /* Adjust the width as per your preferred size */
+  height: 60px; /* Adjust the height as per your preferred size */
+  margin-right: 10px;
+}
+
+
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 15px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+aside {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+aside h2 {
+  margin: 0;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.5;
+}
+
+main {
+  float: left;
+  width: 66.66%;
+  padding: 10px;
+}
+
+main h2 {
+  margin: 0;
+}
+
+main p {
+  margin-bottom: 20px;
+}
+
+figure {
+  margin: 10px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  margin-top: auto;
+}
+
+/* New styles for the form and buttons */
+.main-content {
+  float: left;
+  width: 66.66%;
+  padding: 10px;
+  background-color: #228d27; /* Change this to your preferred main content background color */
+}
+
+.main-content h2 {
+  margin: 0;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"],
+input[type="reset"],
+.button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+.button:hover {
+  background-color: #555;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  position: fixed; /* Position the footer at the bottom of the viewport */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
